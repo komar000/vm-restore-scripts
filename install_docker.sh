@@ -24,3 +24,6 @@ sudo apt-get install docker-ce -y
 
 # Sprawdzenie statusu usługi Dockera
 sudo systemctl status docker
+
+# Informacja o pozytywnym zakończeniu
+echo "Docker został pomyślnie zainstalowany!"
