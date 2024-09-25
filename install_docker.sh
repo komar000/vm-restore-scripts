@@ -8,7 +8,8 @@ sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
-    software-properties-common -y
+    software-properties-common \
+    mc -y
 
 # Dodanie klucza GPG Dockera
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
